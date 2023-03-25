@@ -439,31 +439,31 @@ header {
     border-radius: 25px;
     background-color: white;
     padding-left: 85px;
-    margin-left: 60px;
+    margin-left: 55px;
   }
   .per-two {
     border-radius: 25px;
     background-color: white;
     padding-left: 80px;
-    margin-left: 69px;
+    margin-left: 64px;
   }
   .per-three {
     border-radius: 25px;
     background-color: white;
     padding-left: 79px;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .per-four {
     border-radius: 25px;
     background-color: white;
     padding-left: 100px;
-    margin-left: 69px;
+    margin-left: 64px;
   }
   .per-five {
     border-radius: 25px;
     background-color: white;
     padding-left: 102px;
-    margin-left: 52px;
+    margin-left: 47px;
   }
   .pern-one {
     background-color: var(--clr-dark);
