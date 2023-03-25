@@ -438,36 +438,36 @@ header {
   .per-one {
     border-radius: 25px;
     background-color: white;
-    padding-left: 100px;
-    margin-left: 2px;
+    padding-left: 85px;
+    margin-left: 80px;
   }
   .per-two {
     border-radius: 25px;
     background-color: white;
     padding-left: 80px;
-    margin-left: 2px;
+    margin-left: 89px;
   }
   .per-three {
     border-radius: 25px;
     background-color: white;
-    padding-left: 90px;
-    margin-left: 2px;
+    padding-left: 79px;
+    margin-left: 35px;
   }
   .per-four {
     border-radius: 25px;
     background-color: white;
-    padding-left: 80px;
-    margin-left: 2px;
+    padding-left: 100px;
+    margin-left: 89px;
   }
   .per-five {
     border-radius: 25px;
     background-color: white;
-    padding-left: 80px;
-    margin-left: 2px;
+    padding-left: 102px;
+    margin-left: 72px;
   }
   .pern-one {
     background-color: var(--clr-dark);
-    padding-right: 150px;
+    padding-right: 110px;
     border-radius: 25px;
   }
   .pern-two {
@@ -477,7 +477,7 @@ header {
   }
   .pern-three {
     background-color: var(--clr-dark);
-    padding-right: 110px;
+    padding-right: 120px;
     border-radius: 25px;
   }
   .pern-four {
