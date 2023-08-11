@@ -344,150 +344,162 @@ header {
   width: 100%;
   height: 600px;
   background-color: var(--clr-accent);
+  display: flex;
 }
-.h-skill {
-  text-transform: uppercase;
-  font-size: 30px;
-  justify-content: center;
-  text-align: center;
-  color: var(--clr-light);
+.skill-left{
+  padding-top: 50px;
+  padding-left: 100px;
 }
-.one {
-  margin-left: 30px;
-  font-weight: bold;
-  padding: 30px 0;
+.skill-name{
+  padding: 5px;
+  font-size: large;
 }
-.two {
-  margin-left: 30px;
-  font-weight: bold;
-  padding: 30px 0;
+.skill-bg{
+  padding-top: 25px ;
+  padding-left: 150px;
 }
-.three {
-  margin-left: 30px;
-  font-weight: bold;
-  padding: 30px 0;
-}
-.four {
-  margin-left: 30px;
-  font-weight: bold;
-  padding: 30px 0;
-}
-.five {
-  margin-left: 30px;
-  font-weight: bold;
-  padding: 30px 0;
-}
-
-.per-one {
-  background-color: white;
-  margin-left: 300px;
-  padding-left: 200px;
-  border-radius: 25px;
-}
-.per-two {
-  background-color: white;
-  margin-left: 312px;
-  padding-left: 280px;
-  border-radius: 25px;
-}
-.per-three {
-  background-color: white;
-  margin-left: 247px;
-  padding-left: 300px;
-  border-radius: 25px;
-}
-.per-four {
-  background-color: white;
-  margin-left: 306px;
-  padding-left: 290px;
-  border-radius: 25px;
-}
-.per-five {
-  background-color: white;
-  margin-left: 288px;
-  padding-left: 310px;
-  border-radius: 25px;
-}
-.pern-one {
+.bg-skill{
+  width: 600px;
+  height: 30px;
   background-color: var(--clr-dark);
-  padding-right: 400px;
+  margin: 55px;
   border-radius: 25px;
 }
-.pern-two {
-  background-color: var(--clr-dark);
-  padding-right: 320px;
+.bg-skilled-one{
+  width: 400px;
+  height: 30px;
+  background-color: var(--clr-light);
   border-radius: 25px;
 }
-.pern-three {
-  background-color: var(--clr-dark);
-  padding-right: 300px;
+.bg-skilled-two{
+  width: 300px;
+  height: 30px;
+  background-color: var(--clr-light);
   border-radius: 25px;
 }
-.pern-four {
-  background-color: var(--clr-dark);
-  padding-right: 310px;
+.bg-skilled-three{
+  width: 350px;
+  height: 30px;
+  background-color: var(--clr-light);
   border-radius: 25px;
 }
-.pern-five {
-  background-color: var(--clr-dark);
-  padding-right: 290px;
-  border-radius: 25px;
+@media (min-width: 250px){
+  .skill-left{
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+  .skill-name{
+    font-weight: bolder;
+    padding: 15px;
+    font-size: small;
+  }
+  .skill-bg{
+    padding-top: 15px;
+    padding-left: 0px;
+  }
+  .bg-skill{
+    width: 200px;
+    height: 30px;
+    background-color: var(--clr-dark);
+    margin-top: 55px;
+    border-radius: 25px;
+  }
+  .bg-skilled-one{
+    width: 150px;
+    height: 30px;
+    background-color: var(--clr-light);
+    border-radius: 25px;
+  }
+  .bg-skilled-two{
+    width: 100px;
+    height: 30px;
+    background-color: var(--clr-light);
+    border-radius: 25px;
+  }
+  .bg-skilled-three{
+    width: 130px;
+    height: 30px;
+    background-color: var(--clr-light);
+    border-radius: 25px;
+  }
 }
-
-@media (max-width: 393px) {
-  .per-one {
-    border-radius: 25px;
-    background-color: white;
-    padding-left: 85px;
-    margin-left: 55px;
+@media (min-width: 600px){
+  .skill-left{
+    padding-top: 50px;
+    padding-left: 30px;
   }
-  .per-two {
-    border-radius: 25px;
-    background-color: white;
-    padding-left: 80px;
-    margin-left: 64px;
+  .skill-name{
+    font-weight: bolder;
+    padding: 15px;
+    font-size: small;
   }
-  .per-three {
-    border-radius: 25px;
-    background-color: white;
-    padding-left: 79px;
-    margin-left: 10px;
+  .skill-bg{
+    padding-top: 15px;
+    padding-left: 20px;
   }
-  .per-four {
-    border-radius: 25px;
-    background-color: white;
-    padding-left: 100px;
-    margin-left: 64px;
-  }
-  .per-five {
-    border-radius: 25px;
-    background-color: white;
-    padding-left: 102px;
-    margin-left: 47px;
-  }
-  .pern-one {
+  .bg-skill{
+    width: 400px;
+    height: 30px;
     background-color: var(--clr-dark);
-    padding-right: 110px;
+    margin-top: 55px;
     border-radius: 25px;
   }
-  .pern-two {
-    background-color: var(--clr-dark);
-    padding-right: 120px;
+  .bg-skilled-one{
+    width: 250px;
+    height: 30px;
+    background-color: var(--clr-light);
     border-radius: 25px;
   }
-  .pern-three {
-    background-color: var(--clr-dark);
-    padding-right: 120px;
+  .bg-skilled-two{
+    width: 160px;
+    height: 30px;
+    background-color: var(--clr-light);
     border-radius: 25px;
   }
-  .pern-four {
-    background-color: var(--clr-dark);
-    padding-right: 100px;
+  .bg-skilled-three{
+    width: 200px;
+    height: 30px;
+    background-color: var(--clr-light);
     border-radius: 25px;
   }
-  .pern-five {
+}
+@media (min-width: 1000px) {
+  .skill-left{
+    padding-top: 50px;
+    padding-left: 150px;
+  }
+  .skill-name{
+    font-weight: bolder;
+    padding: 4px;
+    font-size: large;
+  }
+  .skill-bg{
+    padding-top: 15px;
+    padding-left: 250px;
+  }
+  .bg-skill{
+    width: 400px;
+    height: 30px;
     background-color: var(--clr-dark);
-    padding-right: 100px;
+    margin-top: 55px;
+    border-radius: 25px;
+  }
+  .bg-skilled-one{
+    width: 250px;
+    height: 30px;
+    background-color: var(--clr-light);
+    border-radius: 25px;
+  }
+  .bg-skilled-two{
+    width: 160px;
+    height: 30px;
+    background-color: var(--clr-light);
+    border-radius: 25px;
+  }
+  .bg-skilled-three{
+    width: 200px;
+    height: 30px;
+    background-color: var(--clr-light);
     border-radius: 25px;
   }
 }
